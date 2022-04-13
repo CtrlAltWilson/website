@@ -1,0 +1,152 @@
+@font-face
+{
+	font-family: 'ostrich-regular';
+	src: url(../fonts/ostrich-sans/ostrich-regular.ttf);
+}
+
+body 
+{
+	line-height: 17px;
+	background-color: #313537;
+	color: white;
+}
+
+
+.top_bar
+{
+	width: 100%;
+	min-width: 1050px;
+	height: 40px;
+	background-color: #313537;
+	border-bottom: 0.25em solid #bed1d8;
+	margin: 0 0 10px 0;
+	display: inline-flex;
+	position: fixed;
+	z-index: 8;
+}
+
+.logo a
+{
+	font-family: 'ostrich-regular', sans-serif;
+	margin-left: 10px;
+	margin-top: 25px;
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	top: 9px;
+	text-decoration: none;
+	text-shadow: black 2px 2px 0px;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: gray;
+}
+/*-------------------------------------------------------------------
+					NAVIGATION
+--------------------------------------------------------------------*/
+nav 
+{
+	float: right;
+	right: 1px;
+	position: absolute;
+	margin: 10px;
+}
+
+nav a 
+{
+	position: relative;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 5px;
+}
+
+nav a:hover 
+{
+	color: gray;
+}
+
+.wrapper
+{
+	margin: 0 auto;
+	top: 50px;
+	position: relative;
+	padding: 0 10px;
+	width: 75%;
+	min-width: 950px;
+}
+
+textarea:focus
+{
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.downloads a
+{
+	color: #00FFFF;
+	right: 0px;
+}
+
+ .downloads #view
+ {
+ 	padding-left: 50px;
+ }
+
+.downloads a + a
+{
+	padding: 10px;
+}
+
+ #signout
+ {
+ 	position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 50px;
+    color: black;
+ }
+ #signout:hover
+ {
+ 	color: gray;
+ }
+
+ .downloads
+ {
+ 	border-radius: 20px;
+ 	border: 2px solid #bed1d8;
+	position: absolute;
+	max-width: 500px;
+	top: 25%;
+	left: 50%;
+	margin-left: -250px;
+	padding: 1em;
+	background: #;
+	z-index: 100;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+ }
+
+ .downloads.show
+ {
+	opacity: 1;
+	pointer-events: auto;
+ }
+
+ #getdownloadsheader {
+ 	font-size: 24px;
+	border-radius: 5px;
+	padding: 10px;
+	background: #;
+	cursor: move;
+	z-index: 10;
+	color: #fff;
+}

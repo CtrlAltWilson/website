@@ -1,0 +1,55 @@
+form
+{
+	font-size: 50px;
+	color: white;
+}
+
+body, html
+{
+	height: 100%;
+	min-height: 100%;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+input[type="submit"]
+{
+	visibility: hidden;
+}
+input[type="password"]
+{
+	border: 1px solid white;
+	margin-top: 5px;
+	width: 50%;
+	height: 50px;
+	font-size: 75px;
+	color: white;
+	border-radius: 7px;
+	text-align: center;
+	background-color: black;
+	outline: 0;
+
+}
+
+.middle
+{
+		position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	top: 35%;
+	width: 50%;
+
+}
+
+
+#linkedin
+{
+	margin-top: -100px;
+	height: 50px;
+	width: 50px;
+}
